@@ -1,0 +1,1609 @@
+taskid: 0 hostname: acfs.ece.northwestern.edu
+ module_io_quilt_old.F        2931 F
+Quilting with   1 groups of   0 I/O tasks.
+ Ntasks in X            1 , ntasks in Y            1
+IDEAL V4.3.3 PREPROCESSOR
+No git found or not a git repository, git commit version not available.
+  Domain # 1: dx =   100.000 m
+ *************************************
+ Parent domain
+ ids,ide,jds,jde            1         100           1         100
+ ims,ime,jms,jme           -4         105          -4         105
+ ips,ipe,jps,jpe            1         100           1         100
+ *************************************
+DYNAMICS OPTION: Eulerian Mass Coordinate
+   alloc_space_field: domain            1 ,             264952640  bytes allocated
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:            2
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:            3
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:            4
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:            5
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    39
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:            6
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    40
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:            7
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     5
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:            8
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     5
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:            9
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           10
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     3
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           11
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                   100
+   count                    99
+   count                    39
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           12
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                   100
+   count                    39
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           13
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    40
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           14
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    40
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           15
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    40
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           16
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    39
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           17
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    39
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           18
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    39
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           19
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           20
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           21
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    39
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           22
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    39
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           23
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    39
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           24
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    39
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           25
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    39
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           26
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    39
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           27
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    39
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           28
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    39
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           29
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    39
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           30
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    39
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           31
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    39
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           32
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           33
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line         168 , NFMPI_PUT_VARA_INT_ALL, NCID:            0 , varid:           34
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line         168 , NFMPI_PUT_VARA_INT_ALL, NCID:            0 , varid:           35
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           36
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    39
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           37
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           38
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           39
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           40
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           41
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           42
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           43
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           44
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           45
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           46
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           47
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           48
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           49
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           50
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           51
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           52
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    39
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           53
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    39
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           54
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    39
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           55
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    39
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           56
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    39
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           57
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    39
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           58
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     5
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           59
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     5
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           60
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           61
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           62
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           63
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           64
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           65
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    21
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           66
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    16
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           67
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    16
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           68
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     5
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           69
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     5
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           70
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     5
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           71
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line         168 , NFMPI_PUT_VARA_INT_ALL, NCID:            0 , varid:           72
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line         168 , NFMPI_PUT_VARA_INT_ALL, NCID:            0 , varid:           73
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           74
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           75
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           76
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           77
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line         168 , NFMPI_PUT_VARA_INT_ALL, NCID:            0 , varid:           78
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line         168 , NFMPI_PUT_VARA_INT_ALL, NCID:            0 , varid:           79
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line         168 , NFMPI_PUT_VARA_INT_ALL, NCID:            0 , varid:           80
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line         168 , NFMPI_PUT_VARA_INT_ALL, NCID:            0 , varid:           81
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line         168 , NFMPI_PUT_VARA_INT_ALL, NCID:            0 , varid:           82
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           83
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           84
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           85
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           86
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           87
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           88
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           89
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           90
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                   100
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           91
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                   100
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           92
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           93
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           94
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                   100
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           95
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                   100
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           96
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                   100
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           97
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                   100
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           98
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                   100
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:           99
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          100
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          101
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          102
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          103
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          104
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          105
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    39
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          106
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    39
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          107
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    39
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          108
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    39
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          109
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          110
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          111
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line         168 , NFMPI_PUT_VARA_INT_ALL, NCID:            0 , varid:          112
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          113
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          114
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          115
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          116
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          117
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          118
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          119
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          120
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          121
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          122
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          123
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          124
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          125
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          126
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          127
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          128
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          129
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          130
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          131
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          132
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          133
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          134
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          135
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          136
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          137
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          138
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          139
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          140
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          141
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          142
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          143
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          144
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          145
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          146
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          147
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          148
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          149
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          150
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          151
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                    39
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          152
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                   100
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          153
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                   100
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          154
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                   100
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          155
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                   100
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          156
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          157
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          158
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          159
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          160
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          161
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          162
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line         168 , NFMPI_PUT_VARA_INT_ALL, NCID:            0 , varid:          163
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line         168 , NFMPI_PUT_VARA_INT_ALL, NCID:            0 , varid:          164
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line         168 , NFMPI_PUT_VARA_INT_ALL, NCID:            0 , varid:          165
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                     1
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          166
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    39
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          167
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    39
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          168
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    40
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          169
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    40
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          170
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    39
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          171
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    39
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          172
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    40
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          173
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    40
+   count                     1
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          174
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          175
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          176
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          177
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+   **** Zanhua in field_routines.F90, line          60 , NFMPI_PUT_VARA_REAL_ALL, NCID:            0 , varid:          178
+   start                     1
+   start                     1
+   start                     1
+   start                     1
+   count                    99
+   count                    99
+   count                     1
+   count                     1
+  wrf: SUCCESS COMPLETE IDEAL INIT
