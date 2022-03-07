@@ -1,6 +1,6 @@
 # WRF EM_LES
 
-## WRITE PATTERNS
+## Write Patterns
 My current setting for em_les_shallow_convection testcase does simulation every "1 second" until 1 hour is reached. It also saves a backup file every "30 mins". File writes happens only when saving the backup files. 
 
 For each backup file, NFMPI_PUT_VARA_\<type\> are called 177 times for 177 variable arrays. Dimensions for each array need not equal. Dimensions are recorded in [this_file](em_les_shallow_convection/total_dim).
@@ -12,7 +12,15 @@ In particular, one variable has dimension (100, 100, 1, 1).
 
 Three output files are expected (one at time `0`, one at `30 min` and one at time `1 hr`), but only 2 out files are seen. However, 3 sets of writes are seen, as is expected.
 
+
+## NetCDF Write Patterns:
+Data from all processes are passed to Rank0 thorugh MPI_Gatherv, then Rank0 will perform the writes.
+
+
+
 ## Timing Results PnetCDF
+For both NetCDF and PnetCDF, I see significant performance decrease when number of processes increases (>=16). When the number of processes is small, adding more processes increase the performance. For large number of ranks, NetCDF seems to perform less worse than PnetCDF, probably due to NetCDF only uses Rank0 to write.
+
 1. 1 rank
 
     Timing for processing wrfinput file (stream 0) for domain        1:    0.02579 elapsed seconds
