@@ -6,9 +6,9 @@ My current setting for em_les_shallow_convection testcase does simulation every 
 For each backup file, NFMPI_PUT_VARA_\<type\> are called 177 times for 177 variable arrays. Dimensions for each array need not equal. Dimensions are recorded in [this_file](em_les_shallow_convection/total_dim).
 
 In particular, one variable has dimension (100, 100, 1, 1). 
-    1. When using 8 mpi ranks, 8 ranks are devided using 2 (row) * 4 (col).
-    2. When using 16 mpi ranks, 16 ranks are devided using 4 (row) * 4 (col).
-    2. When using 32 mpi ranks, 32 ranks are devided using 4 (row) * 8 (col).
+1. When using 8 mpi ranks, 8 ranks are devided using 2 (row) * 4 (col).
+2. When using 16 mpi ranks, 16 ranks are devided using 4 (row) * 4 (col).
+2. When using 32 mpi ranks, 32 ranks are devided using 4 (row) * 8 (col).
 
 Three output files are expected (one at time `0`, one at `30 min` and one at time `1 hr`), but only 2 out files are seen. However, 3 sets of writes are seen, as is expected.
 
