@@ -19,9 +19,9 @@ Data from all processes are passed to Rank0 thorugh MPI_Gatherv, then Rank0 will
 
 
 ## Timing Results PnetCDF
-For both NetCDF and PnetCDF, I see significant performance decrease when number of processes increases (>=16). When the number of processes is small, adding more processes increase the performance. For large number of ranks, NetCDF seems to perform less worse than PnetCDF, probably due to NetCDF only uses Rank0 to write.
+For both NetCDF and PnetCDF, I see significant performance decrease when number of processes increases (>=16). When the number of processes is small, adding more processes increase the performance. For large number of processes, NetCDF seems to perform less worse than PnetCDF, probably due to NetCDF only uses Rank0 to write.
 
-1. 1 rank
+1. 1 process
 
     Timing for processing wrfinput file (stream 0) for domain        1:    0.02579 elapsed seconds
     
@@ -34,7 +34,7 @@ For both NetCDF and PnetCDF, I see significant performance decrease when number 
     Timing for main: time 0001-01-01_00:00:02 on domain   1:    0.56301 elapsed seconds
     
     Timing for main: time 0001-01-01_00:00:03 on domain   1:    0.56600 elapsed seconds
-2. 2 rank
+2. 2 processes
     
     Timing for processing wrfinput file (stream 0) for domain        1:    0.02294 elapsed seconds
     
@@ -47,7 +47,7 @@ For both NetCDF and PnetCDF, I see significant performance decrease when number 
     Timing for main: time 0001-01-01_00:00:02 on domain   1:    0.36114 elapsed seconds
     
     Timing for main: time 0001-01-01_00:00:03 on domain   1:    0.34758 elapsed seconds
-3. 4 rank
+3. 4 processes
     
     Timing for processing wrfinput file (stream 0) for domain        1:    0.03400 elapsed seconds
 
@@ -61,7 +61,7 @@ For both NetCDF and PnetCDF, I see significant performance decrease when number 
     
     Timing for main: time 0001-01-01_00:00:03 on domain   1:    0.31751 elapsed seconds
 
-2. 8 rank
+2. 8 processes
 
     Timing for processing wrfinput file (stream 0) for domain        1:    0.04902 elapsed seconds
 
@@ -75,7 +75,7 @@ For both NetCDF and PnetCDF, I see significant performance decrease when number 
     
     Timing for main: time 0001-01-01_00:00:03 on domain   1:    0.32892 elapsed seconds
 
-2. 16 rank
+2. 16 processes
 
     Timing for processing wrfinput file (stream 0) for domain        1:   27.75686 elapsed seconds
 
@@ -89,7 +89,7 @@ For both NetCDF and PnetCDF, I see significant performance decrease when number 
     
     Timing for main: time 0001-01-01_00:00:03 on domain   1:    1.67742 elapsed seconds
 
-3. 32 rank
+3. 32 processes
     
     Timing for processing wrfinput file (stream 0) for domain        1:   69.28307 elapsed seconds
     
@@ -103,88 +103,3 @@ For both NetCDF and PnetCDF, I see significant performance decrease when number 
     
     Timing for main: time 0001-01-01_00:00:03 on domain   1:    3.23715 elapsed seconds
 
-## Timing Results NetCDF
-
-1. 1 rank
-
-    Timing for processing wrfinput file (stream 0) for domain        1:    0.05878 elapsed seconds
-
-    Timing for Writing wrfout_d01_0001-01-01_00:00:00 for domain        1:    0.17618 elapsed seconds
-    
-    ----------------------------------------
-    
-    Timing for main: time 0001-01-01_00:00:01 on domain   1:    0.80372 elapsed seconds
-    
-    Timing for main: time 0001-01-01_00:00:02 on domain   1:    0.56959 elapsed seconds
-    
-    Timing for main: time 0001-01-01_00:00:03 on domain   1:    0.58920 elapsed seconds
-
-2. 2 rank
-
-    Timing for processing wrfinput file (stream 0) for domain        1:    0.07662 elapsed seconds
-
-    Timing for Writing wrfout_d01_0001-01-01_00:00:00 for domain        1:    0.18828 elapsed seconds
-    
-    ----------------------------------------
-    
-    Timing for main: time 0001-01-01_00:00:01 on domain   1:    0.55218 elapsed seconds
-    
-    Timing for main: time 0001-01-01_00:00:02 on domain   1:    0.34760 elapsed seconds
-    
-    Timing for main: time 0001-01-01_00:00:03 on domain   1:    0.36045 elapsed seconds
-
-3. 4 rank
-
-    Timing for processing wrfinput file (stream 0) for domain        1:    0.07919 elapsed seconds
-    
-    Timing for Writing wrfout_d01_0001-01-01_00:00:00 for domain        1:    0.19939 elapsed seconds
-    
-    ----------------------------------------
-    
-    Timing for main: time 0001-01-01_00:00:01 on domain   1:    0.51710 elapsed seconds
-    
-    Timing for main: time 0001-01-01_00:00:02 on domain   1:    0.31546 elapsed seconds
-    
-    Timing for main: time 0001-01-01_00:00:03 on domain   1:    0.31889 elapsed seconds
-
-4. 8 rank
-    
-    Timing for processing wrfinput file (stream 0) for domain        1:    0.08208 elapsed seconds
-    
-    Timing for Writing wrfout_d01_0001-01-01_00:00:00 for domain        1:    0.22595 elapsed seconds
-    
-    ----------------------------------------
-    
-    Timing for main: time 0001-01-01_00:00:01 on domain   1:    0.55147 elapsed seconds
-    
-    Timing for main: time 0001-01-01_00:00:02 on domain   1:    0.32636 elapsed seconds
-    
-    Timing for main: time 0001-01-01_00:00:03 on domain   1:    0.32736 elapsed seconds
-
-5. 16 rank
-
-    Timing for processing wrfinput file (stream 0) for domain        1:    4.28982 elapsed seconds
-    
-    Timing for Writing wrfout_d01_0001-01-01_00:00:00 for domain        1:    9.75381 elapsed seconds
-    
-    ----------------------------------------
-    
-    Timing for main: time 0001-01-01_00:00:01 on domain   1:   11.12410 elapsed seconds
-    
-    Timing for main: time 0001-01-01_00:00:02 on domain   1:    1.49696 elapsed seconds
-    
-    Timing for main: time 0001-01-01_00:00:03 on domain   1:    1.39511 elapsed seconds
-
-6. 32 rank
-
-    Timing for processing wrfinput file (stream 0) for domain        1:   12.33482 elapsed seconds
-    
-    Timing for Writing wrfout_d01_0001-01-01_00:00:00 for domain        1:   32.74051 elapsed seconds
-    
-    ----------------------------------------
-    
-    Timing for main: time 0001-01-01_00:00:01 on domain   1:   36.37962 elapsed seconds
-    
-    Timing for main: time 0001-01-01_00:00:02 on domain   1:    3.11535 elapsed seconds
-    
-    Timing for main: time 0001-01-01_00:00:03 on domain   1:    3.24868 elapsed seconds
