@@ -25,9 +25,10 @@ For both NetCDF and PnetCDF, I see significant performance decrease when number 
 
     Timing for processing wrfinput file (stream 0) for domain        1:    0.02579 elapsed seconds
     
-    Timing for Writing wrfout_d01_0001-01-01_00:00:00 for domain        1:    0.03243 elapsed seconds
+    Timing for **Writing** wrfout_d01_0001-01-01_00:00:00 for domain        1:    0.03243 elapsed seconds
     
     ----------------------------------------
+    (**Computation time for each time step (1 sec)**)
     
     Timing for main: time 0001-01-01_00:00:01 on domain   1:    0.59666 elapsed seconds
     
@@ -38,7 +39,7 @@ For both NetCDF and PnetCDF, I see significant performance decrease when number 
     
     Timing for processing wrfinput file (stream 0) for domain        1:    0.02294 elapsed seconds
     
-    Timing for Writing wrfout_d01_0001-01-01_00:00:00 for domain        1:    0.02794 elapsed seconds
+    Timing for **Writing** wrfout_d01_0001-01-01_00:00:00 for domain        1:    0.02794 elapsed seconds
     
     ----------------------------------------
     
@@ -51,7 +52,7 @@ For both NetCDF and PnetCDF, I see significant performance decrease when number 
     
     Timing for processing wrfinput file (stream 0) for domain        1:    0.03400 elapsed seconds
 
-    Timing for Writing wrfout_d01_0001-01-01_00:00:00 for domain        1:    0.04381 elapsed seconds
+    Timing for **Writing** wrfout_d01_0001-01-01_00:00:00 for domain        1:    0.04381 elapsed seconds
     
     ----------------------------------------
     
@@ -65,7 +66,7 @@ For both NetCDF and PnetCDF, I see significant performance decrease when number 
 
     Timing for processing wrfinput file (stream 0) for domain        1:    0.04902 elapsed seconds
 
-    Timing for Writing wrfout_d01_0001-01-01_00:00:00 for domain        1:    0.06376 elapsed seconds
+    Timing for **Writing** wrfout_d01_0001-01-01_00:00:00 for domain        1:    0.06376 elapsed seconds
     
     ----------------------------------------
     
@@ -79,7 +80,7 @@ For both NetCDF and PnetCDF, I see significant performance decrease when number 
 
     Timing for processing wrfinput file (stream 0) for domain        1:   27.75686 elapsed seconds
 
-    Timing for Writing wrfout_d01_0001-01-01_00:00:00 for domain        1:   29.70341 elapsed seconds
+    Timing for **Writing** wrfout_d01_0001-01-01_00:00:00 for domain        1:   29.70341 elapsed seconds
     
     ----------------------------------------
     
@@ -89,11 +90,6 @@ For both NetCDF and PnetCDF, I see significant performance decrease when number 
     
     Timing for main: time 0001-01-01_00:00:03 on domain   1:    1.67742 elapsed seconds
 
-3. 32 processes
-    
-    Timing for processing wrfinput file (stream 0) for domain        1:   69.28307 elapsed seconds
-    
-    Timing for Writing wrfout_d01_0001-01-01_00:00:00 for domain        1:   75.98269 elapsed seconds
     
     ----------------------------------------
     
