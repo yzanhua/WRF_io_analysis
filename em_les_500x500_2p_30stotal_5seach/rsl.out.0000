@@ -1,0 +1,74 @@
+taskid: 0 hostname: acfs.ece.northwestern.edu
+Quilting with   1 groups of   0 I/O tasks.
+ Ntasks in X            1 , ntasks in Y            2
+  Domain # 1: dx =   100.000 m
+WRF V4.3.3 MODEL
+No git found or not a git repository, git commit version not available.
+ *************************************
+ Parent domain
+ ids,ide,jds,jde            1         500           1         500
+ ims,ime,jms,jme           -4         505          -4         257
+ ips,ipe,jps,jpe            1         500           1         250
+ *************************************
+DYNAMICS OPTION: Eulerian Mass Coordinate
+   alloc_space_field: domain            1 ,            2652568160  bytes allocated
+../../../pnetcdf-1.12.2-source/src/dispatchers/file.c line 541 api ncmpi_open
+  med_initialdata_input: calling input_input
+   Input data is acceptable to use: wrfinput_d01
+   Warning LENGTH < 1 in ext_pnc_get_dom_ti.code CHAR, line         109  Element MMINLU
+ CURRENT DATE          = 0001-01-01_00:00:00
+ SIMULATION START DATE = 0001-01-01_00:00:00
+Timing for processing wrfinput file (stream 0) for domain        1:    0.41215 elapsed seconds
+Max map factor in domain 1 =  0.00. Scale the dt in the model accordingly.
+../../../pnetcdf-1.12.2-source/src/dispatchers/file.c line 272 api ncmpi_create
+Timing for Writing wrfout_d01_0001-01-01_00:00:00 for domain        1:    0.41965 elapsed seconds
+ Tile Strategy is not specified. Assuming 1D-Y
+WRF TILE   1 IS      1 IE    500 JS      1 JE    250
+WRF NUMBER OF TILES =   1
+ No land surface physics option is used: sf_surface_physics =            0
+d01 0001-01-01_00:00:00  ----------------------------------------
+d01 0001-01-01_00:00:00  W-DAMPING  BEGINS AT W-COURANT NUMBER =    1.00000000
+d01 0001-01-01_00:00:00  ----------------------------------------
+Timing for main: time 0001-01-01_00:00:01 on domain   1:    6.03589 elapsed seconds
+Timing for main: time 0001-01-01_00:00:02 on domain   1:    5.75716 elapsed seconds
+Timing for main: time 0001-01-01_00:00:03 on domain   1:    5.82352 elapsed seconds
+Timing for main: time 0001-01-01_00:00:04 on domain   1:    5.94571 elapsed seconds
+Timing for main: time 0001-01-01_00:00:05 on domain   1:    5.93667 elapsed seconds
+../../../pnetcdf-1.12.2-source/src/dispatchers/file.c line 272 api ncmpi_create
+Timing for Writing wrfout_d01_0001-01-01_00:00:05 for domain        1:    0.41664 elapsed seconds
+Timing for main: time 0001-01-01_00:00:06 on domain   1:    6.33249 elapsed seconds
+Timing for main: time 0001-01-01_00:00:07 on domain   1:    5.91228 elapsed seconds
+Timing for main: time 0001-01-01_00:00:08 on domain   1:    5.88952 elapsed seconds
+Timing for main: time 0001-01-01_00:00:09 on domain   1:    5.87897 elapsed seconds
+Timing for main: time 0001-01-01_00:00:10 on domain   1:    5.85504 elapsed seconds
+../../../pnetcdf-1.12.2-source/src/dispatchers/file.c line 272 api ncmpi_create
+Timing for Writing wrfout_d01_0001-01-01_00:00:10 for domain        1:    0.42580 elapsed seconds
+Timing for main: time 0001-01-01_00:00:11 on domain   1:    6.30925 elapsed seconds
+Timing for main: time 0001-01-01_00:00:12 on domain   1:    5.87562 elapsed seconds
+Timing for main: time 0001-01-01_00:00:13 on domain   1:    5.87508 elapsed seconds
+Timing for main: time 0001-01-01_00:00:14 on domain   1:    5.88400 elapsed seconds
+Timing for main: time 0001-01-01_00:00:15 on domain   1:    5.89062 elapsed seconds
+../../../pnetcdf-1.12.2-source/src/dispatchers/file.c line 272 api ncmpi_create
+Timing for Writing wrfout_d01_0001-01-01_00:00:15 for domain        1:    0.42603 elapsed seconds
+Timing for main: time 0001-01-01_00:00:16 on domain   1:    6.33553 elapsed seconds
+Timing for main: time 0001-01-01_00:00:17 on domain   1:    5.92606 elapsed seconds
+Timing for main: time 0001-01-01_00:00:18 on domain   1:    5.94824 elapsed seconds
+Timing for main: time 0001-01-01_00:00:19 on domain   1:    5.93416 elapsed seconds
+Timing for main: time 0001-01-01_00:00:20 on domain   1:    5.91795 elapsed seconds
+../../../pnetcdf-1.12.2-source/src/dispatchers/file.c line 272 api ncmpi_create
+Timing for Writing wrfout_d01_0001-01-01_00:00:20 for domain        1:    0.42928 elapsed seconds
+Timing for main: time 0001-01-01_00:00:21 on domain   1:    6.37098 elapsed seconds
+Timing for main: time 0001-01-01_00:00:22 on domain   1:    5.93751 elapsed seconds
+Timing for main: time 0001-01-01_00:00:23 on domain   1:    5.93543 elapsed seconds
+Timing for main: time 0001-01-01_00:00:24 on domain   1:    5.95490 elapsed seconds
+Timing for main: time 0001-01-01_00:00:25 on domain   1:    5.93147 elapsed seconds
+../../../pnetcdf-1.12.2-source/src/dispatchers/file.c line 272 api ncmpi_create
+Timing for Writing wrfout_d01_0001-01-01_00:00:25 for domain        1:    0.42802 elapsed seconds
+Timing for main: time 0001-01-01_00:00:26 on domain   1:    6.37210 elapsed seconds
+Timing for main: time 0001-01-01_00:00:27 on domain   1:    5.95419 elapsed seconds
+Timing for main: time 0001-01-01_00:00:28 on domain   1:    5.95204 elapsed seconds
+Timing for main: time 0001-01-01_00:00:29 on domain   1:    5.94571 elapsed seconds
+Timing for main: time 0001-01-01_00:00:30 on domain   1:    5.93253 elapsed seconds
+../../../pnetcdf-1.12.2-source/src/dispatchers/file.c line 272 api ncmpi_create
+Timing for Writing wrfout_d01_0001-01-01_00:00:30 for domain        1:    0.42683 elapsed seconds
+d01 0001-01-01_00:00:30 wrf: SUCCESS COMPLETE WRF
